@@ -13,9 +13,9 @@ export default function Contact() {
       <div className="container contact-inner">
         <div>
           <p className="eyebrow">Contacto</p>
-          <h2>Un canal directo, cuando esté configurado.</h2>
+          <h2>Hablemos de tu próximo proyecto.</h2>
           <p className="section-intro">
-            Los datos de contacto se mostrarán aquí al añadirlos a la configuración de cada perfil.
+            ¿Tienes una propuesta, una oportunidad o quieres colaborar? Escríbenos directamente. Nos encantará conversar contigo.
           </p>
         </div>
         <div className="contact-channels">
