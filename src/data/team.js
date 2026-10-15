@@ -77,9 +77,9 @@ export const team = [
       'Spring Framework 6 & Spring Boot 3 desde cero a experto — Udemy (mayo de 2025)',
     ],
     links: {
-      github: null,
+      github: 'https://github.com/YojhanxA',
       linkedin: null,
-      email: null,
+      email: 'zigzagflete@gmail.com',
       resume: '/docs/yojhan-arias-correa-cv.pdf',
     },
     photo: null,
