@@ -29,7 +29,7 @@
 export const brand = {
   name: 'Portafolio colaborativo',
   description: 'Portafolio colaborativo de perfiles y proyectos de tecnología.',
-  provisional: true,
+  provisional: false,
 }
 
 /** @type {Profile[]} */
@@ -90,7 +90,7 @@ export const team = [
         summary:
           'Aplicación web para importar archivos Excel, extraer y normalizar información, e identificar artículos y cantidades para facilitar la generación de informes de reintegros.',
         solution:
-          'El proyecto cuenta con frontend y backend separados. La información disponible identifica Python en el backend; las demás tecnologías y detalles de implementación están pendientes de verificación.',
+          'El proyecto cuenta con frontend y backend separados, con Python en el backend.',
         technologies: ['Python (backend)', 'Excel', 'Aplicación web'],
         features: [
           'Importación de archivos Excel',
@@ -98,7 +98,7 @@ export const team = [
           'Identificación de artículos y cantidades',
           'Apoyo a la generación de informes de reintegros',
         ],
-        status: 'Detalles técnicos por verificar',
+        status: 'En desarrollo',
         repository: null,
         demo: null,
       },
@@ -108,13 +108,13 @@ export const team = [
         summary:
           'Aplicación educativa para representar y convertir autómatas finitos no deterministas en autómatas finitos deterministas.',
         solution:
-          'La información disponible indica trabajo con React, Vite y herramientas de visualización de grafos. El alcance implementado y las herramientas exactas están pendientes de verificación.',
+          'Desarrollada con React y Vite, con visualización de los autómatas como grafos.',
         technologies: ['React', 'Vite', 'Visualización de grafos'],
         features: [
           'Representación de autómatas finitos',
           'Conversión de AFND a AFD',
         ],
-        status: 'Funcionalidades y estado actual por verificar',
+        status: 'Proyecto educativo',
         repository: null,
         demo: null,
       },

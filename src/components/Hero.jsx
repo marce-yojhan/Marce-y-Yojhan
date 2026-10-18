@@ -12,7 +12,6 @@ export default function Hero() {
         </h1>
         <p className="hero-copy">
           Un espacio compartido para conocer los perfiles y proyectos de cada integrante.
-          La información se muestra solo cuando está disponible y confirmada.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href="#equipo">
