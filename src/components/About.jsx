@@ -12,7 +12,7 @@ function ProfileLinks({ profile }) {
           <a
             className="text-link"
             href={link.href}
-            download={link.label === 'Hoja de vida' ? 'Yojhan-Arias-Correa-CV.pdf' : undefined}
+            download={link.label === 'Hoja de vida' ? `${profile.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '-')}-CV.pdf` : undefined}
             key={link.label}
             target={external ? '_blank' : undefined}
             rel={external ? 'noopener noreferrer' : undefined}
@@ -41,7 +41,7 @@ function ProfileSection({ title, values, emptyText }) {
 }
 
 function ProfileCard({ profile, index }) {
-  const isInPreparation = profile.id === 'marcela'
+  const isInPreparation = !profile.introduction
 
   return (
     <article className={`profile-card${index % 2 ? ' profile-card-alt' : ''}`}>
@@ -110,7 +110,7 @@ export default function About() {
             <h2>Dos perfiles, un espacio compartido.</h2>
           </div>
           <p className="section-intro">
-            Cada perfil conserva su propia trayectoria. La información aún no disponible se deja claramente pendiente.
+            Cada perfil conserva su propia trayectoria.
           </p>
         </div>
         <div className="profile-grid">

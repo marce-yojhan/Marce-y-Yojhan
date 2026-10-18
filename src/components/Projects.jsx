@@ -228,7 +228,7 @@ export default function Projects() {
             <h2>Trabajo técnico, con contexto.</h2>
           </div>
           <p className="section-intro">
-            Las tecnologías y funcionalidades se describen según la información disponible; los detalles por verificar están indicados.
+            Tecnologías, alcance y estado de cada proyecto.
           </p>
         </div>
         {projects.length ? (
